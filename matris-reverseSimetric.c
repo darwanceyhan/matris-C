@@ -2,6 +2,7 @@
 #define column 3
 #define row 3
 
+// a[column][row] == -1 * a[column][row]^T
 int main()
 {
   int matris[column][row], control = 1, i, j;

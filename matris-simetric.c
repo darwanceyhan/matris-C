@@ -2,6 +2,7 @@
 #define column 3
 #define row 3
 
+// a[column][row] ==  a[column][row]^T
 int main()
 {
   int matris[column][row], control = 1, i, j;
@@ -25,7 +26,7 @@ int main()
   }
 
   if (control == 0)
-    return printf("Is not simetric");
+    return printf("It is not simetric");
 
-  return printf("Is simetric");
+  return printf("It is simetric");
 }
